@@ -10,7 +10,7 @@ import { Button } from "./ui/button";
 const ToggleMode = () => {
 
     const {theme, setTheme} = useTheme();
-    const [mounted, setMounted] = useState(false);
+    /* const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
         setMounted(true);
@@ -24,7 +24,7 @@ const ToggleMode = () => {
                 disabled={true}>
             </Button>
         );
-    }
+    } */
 
     const dark = theme === "dark";
 
